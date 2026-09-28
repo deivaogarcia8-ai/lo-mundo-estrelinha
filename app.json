@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Mundo Estrelinha",
+    "slug": "mundo-estrelinha",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFB703"
+    },
+    "plugins": ["expo-router"],
+    "ios": { "supportsTablet": true },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#FFB703"
+      }
+    }
+  }
+}
